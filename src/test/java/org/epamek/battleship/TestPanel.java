@@ -14,8 +14,7 @@ public class TestPanel extends SwingTestCase
     public void setUp()
     {
         this.emptyPanel = new JPanel();
-        BattleshipApplication testApp = new BattleshipApplication();
-        this.contents = testApp.createComponents();
+        this.contents = Board.createComponents();
     }
 
     public void testEmptyPanel()
