@@ -4,22 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83205cb0-3efc-4d96-825f-220adf8f37ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epamek/BattleshipApplication.java" afterDir="false" />
+    <list default="true" id="83205cb0-3efc-4d96-825f-220adf8f37ec" name="Changes" comment="add base unit tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/epamek/battleship/SwingTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/epamek/battleship/TestPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/epamek/BattleshipApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/BattleshipApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/htmlReport" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,17 +60,25 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.sourceCode",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.epamek.battleship" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestPanel.testBattleshipPanel">
     <configuration name="BattleshipApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.epamek.BattleshipApplication" />
+      <option name="MAIN_CLASS_NAME" value="org.epamek.battleship.BattleshipApplication" />
       <module name="battleship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.epamek.*" />
+          <option name="PATTERN" value="org.epamek.battleship.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,9 +86,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in battleship" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="battleship" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPanel.testBattleshipPanel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="battleship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.epamek.battleship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.epamek.battleship" />
+      <option name="MAIN_CLASS_NAME" value="org.epamek.battleship.TestPanel" />
+      <option name="METHOD_NAME" value="testBattleshipPanel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPanel.testEmptyPanel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="battleship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.epamek.battleship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.epamek.battleship" />
+      <option name="MAIN_CLASS_NAME" value="org.epamek.battleship.TestPanel" />
+      <option name="METHOD_NAME" value="testEmptyPanel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BattleshipApplication" />
+      <item itemvalue="JUnit.All in battleship" />
+      <item itemvalue="JUnit.TestPanel.testBattleshipPanel" />
+      <item itemvalue="JUnit.TestPanel.testEmptyPanel" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BattleshipApplication" />
+        <item itemvalue="JUnit.All in battleship" />
+        <item itemvalue="JUnit.TestPanel.testBattleshipPanel" />
+        <item itemvalue="JUnit.TestPanel.testEmptyPanel" />
       </list>
     </recent_temporary>
   </component>
@@ -80,11 +151,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679540263159</updated>
-      <workItem from="1679540264371" duration="1907000" />
+      <workItem from="1679540264371" duration="13914000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1679542399070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679542399070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add base unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add base unit tests" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/battleship$BattleshipApplication.ic" NAME="BattleshipApplication Coverage Results" MODIFIED="1679554128314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.epamek.battleship.*</FILTER>
+    </SUITE>
   </component>
 </project>
