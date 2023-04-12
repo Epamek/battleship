@@ -5,20 +5,27 @@ import java.awt.*;
 
 public class Board extends JPanel
 {
-    /**
-     * Currently generates a single SeaPane and attaches it to the game board.
-     *
-     * @return a pane named "Battleship" representing the game board and containing the board's components
-     */
     public static Component createComponents()
     {
-        //TODO: create and call method to generate 2D array of panes
-        SeaPane seaPane = new SeaPane(30, 30, 100, 100);
-        JPanel pane = new JPanel(new GridLayout(0, 1));
-
+        JPanel pane = new JPanel(new GridLayout(10, 10));
         pane.setName("Battleship");
-        pane.add(seaPane);
+
+        createMatrix(pane);
 
         return pane;
+    }
+
+    private static void createMatrix(JPanel pane)
+    {
+        SeaPane[][] matrix = new SeaPane[10][10];
+
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+                matrix[i][j] = new SeaPane(100, 100);
+                pane.add(matrix[i][j]);
+            }
+        }
     }
 }
