@@ -10,6 +10,14 @@ public class SeaPane extends JPanel
     private final int width;
     private final int height;
 
+    /**
+     * Represents one tile on the game board.
+     *
+     * @param x x-position on the board
+     * @param y y-position on the board
+     * @param width width of the pane
+     * @param height height of the pane
+     */
     public SeaPane(int x, int y, int width, int height)
     {
         this.x = x;
