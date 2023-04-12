@@ -18,6 +18,11 @@ public class SeaPane extends JPanel
         this.height = height;
     }
 
+    public SeaPane(int width, int height)
+    {
+        this(0, 0, width, height);
+    }
+
     @Override
     public Dimension getPreferredSize()
     {

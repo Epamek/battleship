@@ -7,12 +7,25 @@ public class Board extends JPanel
 {
     public static Component createComponents()
     {
-        SeaPane seaPane = new SeaPane(30, 30, 100, 100);
-        JPanel pane = new JPanel(new GridLayout(0, 1));
-
+        JPanel pane = new JPanel(new GridLayout(10, 10));
         pane.setName("Battleship");
-        pane.add(seaPane);
+
+        createMatrix(pane);
 
         return pane;
+    }
+
+    private static void createMatrix(JPanel pane)
+    {
+        SeaPane[][] matrix = new SeaPane[10][10];
+
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+                matrix[i][j] = new SeaPane(100, 100);
+                pane.add(matrix[i][j]);
+            }
+        }
     }
 }

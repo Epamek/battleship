@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83205cb0-3efc-4d96-825f-220adf8f37ec" name="Changes" comment="add base unit tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/SeaPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/BattleshipApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/BattleshipApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamek/battleship/TestPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamek/battleship/TestPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/SeaPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epamek/battleship/SeaPane.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BattleshipApplication" />
-        <item itemvalue="JUnit.TestPanel" />
-        <item itemvalue="JUnit.TestPanel.testBattleshipPanel" />
         <item itemvalue="JUnit.TestPanel.testEmptyPanel" />
+        <item itemvalue="JUnit.TestPanel.testBattleshipPanel" />
         <item itemvalue="JUnit.All in battleship" />
+        <item itemvalue="JUnit.TestPanel" />
       </list>
     </recent_temporary>
   </component>
